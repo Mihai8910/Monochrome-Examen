@@ -1,0 +1,12 @@
+.badge-favorite {
+  i {
+    font-size: 18px;
+    color: $black-primary;
+    transition: transform 0.2s;
+
+    &:hover {
+      color: rgb(250, 85, 85);
+      transform: scale(1.2);
+    }
+  }
+}
